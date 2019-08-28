@@ -1,0 +1,54 @@
+body{
+    width: 1440px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+#top_main{
+    background: url(images/bg-hero-desktop.svg) no-repeat #edfbfe;
+}
+#top_main .container{
+    max-width: 1300px;
+}
+.huddle_header{
+    padding: 60px 0;
+}
+.container{
+    height: 680px;
+}
+.btn_try,.left_text p, .left_text h3{
+    color: #00252e;
+}
+.btn_try{
+    background: #ffffff;
+    border-radius: 45px;
+    float: right;
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 0px 5px 0px #d4d3d36b;
+    border: 1px solid #ececec;
+}
+.left_text{
+    padding: 8% 0 0;
+}
+.left_text h1{
+    line-height: 1.5;
+    font-weight: 600;
+}
+.left_text p{
+    font-size: 15px;
+    padding: 2% 21% 2% 0;
+}
+.btn_start{
+    background: #fe52c0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 280px;
+    height: 50px;
+    border-radius: 25px;
+}

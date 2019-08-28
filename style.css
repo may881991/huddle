@@ -8,15 +8,13 @@ h1,h2,h3,h4,h5,h6{
 }
 #top_main{
     background: url(images/bg-hero-desktop.svg) no-repeat #edfbfe;
+    height: 720px;
 }
 #top_main .container{
     max-width: 1300px;
 }
 .huddle_header{
     padding: 60px 0;
-}
-.container{
-    height: 680px;
 }
 .btn_try,.left_text p, .left_text h3{
     color: #00252e;
@@ -31,6 +29,9 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
     box-shadow: 0 0px 5px 0px #d4d3d36b;
     border: 1px solid #ececec;
+}
+.mockup_img{
+    width: 95%;
 }
 .left_text{
     padding: 8% 0 0;

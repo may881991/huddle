@@ -10,13 +10,13 @@ h1,h2,h3,h4,h5,h6{
     background: url(images/bg-hero-desktop.svg) no-repeat #edfbfe;
     height: 720px;
 }
-#top_main .container{
+#top_main .container,#middle_main .container{
     max-width: 1300px;
 }
 .huddle_header{
     padding: 60px 0;
 }
-.btn_try,.left_text p, .left_text h3{
+.btn_try,.left_text p, .left_text h1,.main_box div h3,.small_box h4{
     color: #00252e;
 }
 .btn_try{
@@ -52,4 +52,58 @@ h1,h2,h3,h4,h5,h6{
     width: 280px;
     height: 50px;
     border-radius: 25px;
+}
+.main_box{
+    box-shadow: 0 0px 5px 0px #d4d3d36b;
+    margin: 5% 0 2%;
+    padding: 0 20px 0 50px;
+    border-radius: 15px;
+}
+.main_box .main_box_left{
+    padding: 13% 5% 0 7%;
+}
+.main_box_left h3{
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+.main_box_left p{
+    color: #8f969c;
+    font-size: 17px;
+}
+.main_box img{
+    width: 80%;
+}
+.main_box_right{
+    padding: 5% 0 5%;
+    text-align: right;
+}
+.small_box{
+    box-shadow: 0 0px 5px 0px #d4d3d36b;
+    border-radius: 15px;
+    text-align: center;
+    padding: 4% 0;
+}
+.small_box h4{
+    padding-bottom: 3%;
+}
+.footer{
+    background: #00252e;
+    padding: 2% 0;
+}
+.info{
+    padding: 2%;
+    color: #ffffff;
+}
+.info img{
+    padding: 0 5%;
+    float: left;
+}
+.info label{
+    float: left;
+    width: 10%;
+}
+.info span{
+    float: right;
+    width: 85%;
+    font-size: 12px;
 }
